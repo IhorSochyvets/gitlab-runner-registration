@@ -3,3 +3,7 @@ Deploy EC2 instance using Terraform and install docker, gitlab-runner and regist
 
 ## Deploy EC2 
 AWS CLI needs to be configured to deploy EC2 using Terraform.
+
+## Register GitLab Runner using Ansible
+
+ansible-playbook -i inventory playbookGitLabRunnerRegister.yml
